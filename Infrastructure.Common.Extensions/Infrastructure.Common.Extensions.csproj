@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <PackageId>Infrastructure.Common.Extensions</PackageId>
+    <Authors>Infrastructure</Authors>
+    <Description>Common Utilities and Helpers for general usages</Description>
+    <Version>1.0.1</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
