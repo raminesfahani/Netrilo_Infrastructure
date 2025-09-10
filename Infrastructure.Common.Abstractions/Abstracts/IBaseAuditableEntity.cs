@@ -2,12 +2,7 @@
 {
     public interface IBaseAuditableEntity
     {
-        public DateTimeOffset Created { get; set; }
-
-        public int? CreatedBy { get; set; }
-
-        public DateTimeOffset LastModified { get; set; }
-
-        public int? LastModifiedBy { get; set; }
+        public DateTimeOffset Created { get; init; }
+        public DateTimeOffset? LastModified { get; set; }
     }
 }

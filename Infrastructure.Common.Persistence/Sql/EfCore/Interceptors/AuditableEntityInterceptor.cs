@@ -30,11 +30,6 @@ namespace Infrastructure.Common.Persistence.Sql.EfCore.Interceptors
 
             foreach (var entry in context.ChangeTracker.Entries<IBaseAuditableEntity>())
             {
-                if (entry.State == EntityState.Added)
-                {
-                    entry.Entity.Created = DateTime.UtcNow;
-                }
-
                 if (entry.State == EntityState.Added || entry.State == EntityState.Modified || entry.HasChangedOwnedEntities())
                 {
                     entry.Entity.LastModified = DateTime.UtcNow;

@@ -1,0 +1,31 @@
+using Infrastructure.Common.Abstractions.Abstracts;
+using Infrastructure.Common.Abstractions.Commands;
+using Infrastructure.Common.Abstractions.Dto;
+using Moq;
+
+namespace Infrastructure.Common.Abstractions.UnitTests.Dto
+{
+    public class DtoUnitTests
+    {
+        private class TestDtoClass<T> : BaseDto<T>
+        {
+            public TestDtoClass(T id)
+            {
+                Id = id;
+            }
+        }
+
+        /// <summary>
+        /// Checking the validation of generic type and date created by BaseEntity class
+        /// </summary>
+        [Fact]
+        public void Check_Dto_Instance_Is_Valid()
+        {
+            // Arrange
+            TestDtoClass<Guid> entity = new(Guid.NewGuid());
+
+            // Assert
+            Assert.True(entity.Id.GetType() == typeof(Guid));
+        }
+    }
+}

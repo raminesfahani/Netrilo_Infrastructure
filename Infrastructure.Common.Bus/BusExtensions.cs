@@ -14,7 +14,7 @@ namespace Infrastructure.Common.Bus
         {
             var assemblies = types.Select(type => type.GetTypeInfo().Assembly);
 
-            services.AddMediatR(x => x.RegisterServicesFromAssemblies(assemblies.ToArray()));
+            services.AddMediatR(x => x.RegisterServicesFromAssemblies([.. assemblies]));
 
             services.AddScoped<ICommandBus, CommandBus>();
             services.AddScoped<IQueryBus, QueryBus>();
