@@ -1,5 +1,27 @@
-# Infrastructure Infrastructure Project
-In this project we've implemented bunch of services for using them easier and cleaner in every microservice projec without any additional code.
+# Netrilo Infrastructure
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/raminesfahani/Netrilo_Infrastructure/dotnet-core.yml?branch=main)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions)
+[![License](https://img.shields.io/github/license/raminesfahani/Netrilo_Infrastructure)](LICENSE)
+
+Netrilo_Infrastructure is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
+
+---
+
+## Projects
+
+| Project | Description |
+|---------|-------------|
+| [Infrastructure](./Src/Infrastructure/README.md) | Core infrastructure library for logging, DB, event bus, and pipelines. |
+| [ServiceA](./Src/ServiceA/README.md) | Example microservice using Infrastructure module. |
+| [ServiceB](./Src/ServiceB/README.md) | Another microservice showing event bus usage. |
+| … | … |
+
+---
+
+## Getting Started
+
+Check the README of each project for installation, usage, and configuration instructions.
+
 
 ## Features
 These are mentioned common features such as below:
