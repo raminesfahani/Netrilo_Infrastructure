@@ -66,10 +66,15 @@ These modules can be installed independently and used in isolation or together.
 
 ## 🚀 Installation
 
-You can install any package using the NuGet CLI or `.NET CLI`:
+You can install any package using the NuGet CLI or `.NET CLI`, or you can choose one from the above list and install from the NuGet website or Package Manager. Here is the command you can use to install manually via `.NET CLI`:
 
 ```bash
+dotnet add package Netrilo.Infrastructure.Common.Abstractions
+dotnet add package Netrilo.Infrastructure.Common.Bus
+dotnet add package Netrilo.Infrastructure.Common.Extensions
 dotnet add package Netrilo.Infrastructure.Common.Logging
+dotnet add package Netrilo.Infrastructure.Common.Persistence
+dotnet add package Netrilo.Infrastructure.Common.Web
 ```
 
 ---
