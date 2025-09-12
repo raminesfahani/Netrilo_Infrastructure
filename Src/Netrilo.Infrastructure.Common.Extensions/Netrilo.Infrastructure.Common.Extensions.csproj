@@ -6,7 +6,7 @@
 		<PackageId>Netrilo.Infrastructure.Common.Extensions</PackageId>
 		<Authors>raminesfahani</Authors>
 		<Description>Common Utilities and Helpers for general usages</Description>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>

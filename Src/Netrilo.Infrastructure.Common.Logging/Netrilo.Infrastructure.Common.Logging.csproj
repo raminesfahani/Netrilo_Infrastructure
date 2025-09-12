@@ -6,7 +6,7 @@
 		<PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
 		<Authors>raminesfahani</Authors>
 		<Description>Implemented Logging Services</Description>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
