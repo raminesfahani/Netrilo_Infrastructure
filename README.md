@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/github/languages/top/raminesfahani/Netrilo_Infrastructure)](https://github.com/raminesfahani/Netrilo_Infrastructure/search?l=c%23)
 
 **Netrilo** is a modular infrastructure SDK for modern .NET applications.  
-It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architecture.
+It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architecture supporting architectures including Domain-Driven-Design, Event-Driven and so on.
 
 ![Netrilo Logo](https://github.com/raminesfahani/Netrilo_Infrastructure/raw/main/logo.png)
 
@@ -48,8 +48,8 @@ Each module targets a specific infrastructure concern:
 | **Bus**         | Event bus & messaging pattern implementation | [Documentation](Src/Netrilo.Infrastructure.Common.Bus) |
 | **Extensions**  | Common helper utilities and extension methods | [Documentation](Src/Netrilo.Infrastructure.Common.Extensions) |
 | **Logging**     | Structured logging setup using Serilog | [Documentation](Src/Netrilo.Infrastructure.Common.Logging) |
-| **Persistence** | EF Core integration, repository pattern, migrations | [Documentation](Src/Netrilo.Infrastructure.Common.Persistence) |
-| **Web**         | API filters, model binding, controller base logic | [Documentation](Src/Netrilo.Infrastructure.Common.Web) |
+| **Persistence** | EF Core integration, repository pattern, migrations supporting SQL and NoSQL databases. | [Documentation](Src/Netrilo.Infrastructure.Common.Persistence) |
+| **Web**         | Implementing API explorers and filters, Validation and Exception handling, and Service Discovery | [Documentation](Src/Netrilo.Infrastructure.Common.Web) |
 
 
 These modules can be installed independently and used in isolation or together.
@@ -69,12 +69,6 @@ These modules can be installed independently and used in isolation or together.
 
 ---
 
-## 🛫 Azure Artifact Deployment
-
-You can easily configure and customize this [YAML Pipeline](Deployment/Azure-Pipeline.yml) file for deploying on Azure Artifact by setting your environment variables and repo.
-
----
-
 ## 🚀 Installation
 
 You can install any package using the NuGet CLI or `.NET CLI`, or you can choose one from the above list and install from the NuGet website or Package Manager. Here is the command you can use to install manually via `.NET CLI`:
@@ -87,6 +81,12 @@ dotnet add package Netrilo.Infrastructure.Common.Logging
 dotnet add package Netrilo.Infrastructure.Common.Persistence
 dotnet add package Netrilo.Infrastructure.Common.Web
 ```
+
+---
+
+## 🛫 Azure Artifact Deployment
+
+You can easily configure and customize this [YAML Pipeline](Deployment/Azure-Pipeline.yml) for deploying on Azure Artifact by setting your environment variables and repo.
 
 ---
 
@@ -132,7 +132,11 @@ Test Projects/
 
 .github/
 └── workflows/
-    └── dotnet.yml     → CI/CD pipeline
+    └── nuget-packages.yml     → CI/CD pipeline
+
+Deployment/
+└── Azure Artifacts/
+    └── Azure-Pipeline.yml     → CI/CD pipeline
 
 artifacts/              → Generated NuGet packages
 ```
