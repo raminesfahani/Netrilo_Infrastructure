@@ -102,7 +102,7 @@ dotnet test --configuration Release --no-build
 ## 🗂️ Repository Structure
 
 ```
-Src/
+Package Projects/
 ├── Infrastructure.Common.Abstractions/
 ├── Infrastructure.Common.Bus/
 ├── Infrastructure.Common.Extensions/
@@ -110,13 +110,10 @@ Src/
 ├── Infrastructure.Common.Persistence/
 ├── Infrastructure.Common.Web/
 
-Tests/
-├── Infrastructure.Common.Abstractions.Tests/
-├── Infrastructure.Common.Bus.Tests/
-├── Infrastructure.Common.Extensions.Tests/
-├── Infrastructure.Common.Logging.Tests/
-├── Infrastructure.Common.Persistence.Tests/
-├── Infrastructure.Common.Web.Tests/
+Test Projects/
+├── Infrastructure.Common.Abstractions.UnitTests/
+├── Infrastructure.Common.Bus.UnitTests/
+├── Infrastructure.Common.Extensions.UnitTests/
 
 .github/
 └── workflows/
@@ -138,7 +135,7 @@ To contribute:
 2. Commit your changes and push.
 3. Open a pull request.
 
-> Ensure your changes follow the coding standards and are covered by unit tests.
+Please make sure that your changes follow the coding standards and are thoroughly tested.
 
 ---
 
