@@ -8,6 +8,9 @@
 		<Description>Common Utilities and Helpers for general usages</Description>
 		<Version>1.0.1</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
+		
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>A project containing some helpful extensions and functions for general usages.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

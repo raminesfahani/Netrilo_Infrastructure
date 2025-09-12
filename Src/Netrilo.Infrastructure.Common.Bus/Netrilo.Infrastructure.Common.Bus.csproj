@@ -1,19 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <IsPackable>true</IsPackable>
-    <PackageId>Netrilo.Infrastructure.Common.Bus</PackageId>
-    <Authors>Netrilo</Authors>
-    <Description>Event Bus Abstractions and Implementations</Description>
-    <Version>1.0.1</Version>
-    <ImplicitUsings>enable</ImplicitUsings>
+		<TargetFramework>net9.0</TargetFramework>
+		<IsPackable>true</IsPackable>
+		<PackageId>Netrilo.Infrastructure.Common.Bus</PackageId>
+		<Authors>Netrilo</Authors>
+		<Description>Event Bus Abstractions and Implementations</Description>
+		<Version>1.0.1</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>An infrastructure implementing a common event bus.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="EventStores\Stores\EventStore\**" />
-	  <EmbeddedResource Remove="EventStores\Stores\EventStore\**" />
-	  <None Remove="EventStores\Stores\EventStore\**" />
+		<Compile Remove="EventStores\Stores\EventStore\**" />
+		<EmbeddedResource Remove="EventStores\Stores\EventStore\**" />
+		<None Remove="EventStores\Stores\EventStore\**" />
 	</ItemGroup>
 
 	<ItemGroup>

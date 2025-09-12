@@ -1,14 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <IsPackable>true</IsPackable>
-    <PackageId>Netrilo.Infrastructure.Common.Abstractions</PackageId>
-    <Authors>Netrilo</Authors>
-    <Description>Common Abstract Classes</Description>
-    <Version>1.0.1</Version>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<IsPackable>true</IsPackable>
+		<PackageId>Netrilo.Infrastructure.Common.Abstractions</PackageId>
+		<Authors>Netrilo</Authors>
+		<Description>Common Abstract Classes</Description>
+		<Version>1.0.1</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>A project containing common abstract classes and entities.</Description>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="MediatR" Version="13.0.0" />

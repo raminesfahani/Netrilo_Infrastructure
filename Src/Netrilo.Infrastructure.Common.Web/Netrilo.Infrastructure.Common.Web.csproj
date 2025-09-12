@@ -1,14 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <IsPackable>true</IsPackable>
-    <PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
-    <Authors>Netrilo</Authors>
-    <Description>Usual Implementations for Web APIs and Application usages</Description>
-    <Version>1.0.1</Version>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<IsPackable>true</IsPackable>
+		<PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
+		<Authors>Netrilo</Authors>
+		<Description>Usual Implementations for Web APIs and Application usages</Description>
+		<Version>1.0.1</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>An infrastructure implementing the most popular and useful a web project requirements.</Description>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="MediatR" Version="13.0.0" />
@@ -30,6 +33,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Netrilo.Infrastructure.Common.Abstractions\Netrilo.Infrastructure.Common.Abstractions.csproj" />
+		<ProjectReference Include="..\Netrilo.Infrastructure.Common.Abstractions\Netrilo.Infrastructure.Common.Abstractions.csproj" />
 	</ItemGroup>
 </Project>

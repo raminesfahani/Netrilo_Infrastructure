@@ -1,14 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <IsPackable>true</IsPackable>
-    <PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
-    <Authors>Netrilo</Authors>
-    <Description>Implemented Logging Services</Description>
-    <Version>1.0.1</Version>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<IsPackable>true</IsPackable>
+		<PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
+		<Authors>Netrilo</Authors>
+		<Description>Implemented Logging Services</Description>
+		<Version>1.0.1</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>A project which is responsible for all runtime logging on different platforms.</Description>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Serilog" Version="4.3.0" />
