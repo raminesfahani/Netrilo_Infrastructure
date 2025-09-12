@@ -37,15 +37,14 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 
 Each module targets a specific infrastructure concern:
 
-| Module | Purpose | Documentation |
-|--------|---------|----------------|
-| **Abstractions** | Core contracts and DI service definitions | [Read More](Src/Netrilo.Infrastructure.Common.Abstractions) |
-| **Bus**         | Event bus & messaging pattern implementation | [Read More](Src/Netrilo.Infrastructure.Common.Bus) |
-| **Extensions**  | Common helper utilities and extension methods | [Read More](Src/Netrilo.Infrastructure.Common.Extensions) |
-| **Logging**     | Structured logging setup using Serilog | [Read More](Src/Netrilo.Infrastructure.Common.Logging) |
-| **Persistence** | EF Core integration, repository pattern, migrations | [Read More](Src/Netrilo.Infrastructure.Common.Persistence) |
-| **Web**         | API filters, model binding, controller base logic | [Read More](Src/Netrilo.Infrastructure.Common.Web) |
-
+| Layer | Purpose |
+|------|---------|
+| Abstractions | Core contracts and DI service definitions |
+| Bus         | Event bus & messaging pattern implementation |
+| Extensions  | Common helper utilities and extension methods |
+| Logging     | Structured logging setup using Serilog |
+| Persistence | EF Core integration, repository pattern, migrations |
+| Web         | API filters, model binding, controller base logic |
 
 These modules can be installed independently and used in isolation or together.
 
@@ -72,16 +71,6 @@ You can install any package using the NuGet CLI or `.NET CLI`:
 dotnet add package Netrilo.Infrastructure.Common.Logging
 ```
 
-To use GitHub Packages:
-
-```bash
-dotnet nuget add source \
-  --name github \
-  https://nuget.pkg.github.com/raminesfahani/index.json \
-  --username raminesfahani \
-  --password <YOUR_PERSONAL_ACCESS_TOKEN>
-```
-
 ---
 
 ## 🛠️ Build Instructions
@@ -91,19 +80,22 @@ To build all projects and generate NuGet packages:
 ```bash
 dotnet restore
 dotnet build --configuration Release
-dotnet pack --configuration Release --output ./artifacts
-```
-
-To push to GitHub Packages:
-
-```bash
-dotnet nuget push ./artifacts/*.nupkg \
-  --source "https://nuget.pkg.github.com/raminesfahani/index.json" \
-  --api-key <GITHUB_TOKEN> \
-  --skip-duplicate
 ```
 
 ---
+
+## 🧪 Unit Tests
+
+All unit tests for the repository are located under the `Tests/` folder.  
+Each project has a corresponding test project named `<ProjectName>.Tests`.
+
+### Run all tests
+
+Use the following `dotnet` command to discover and run all tests in the repository:
+
+```bash
+dotnet test --configuration Release --no-build
+
 
 ## 🗂️ Repository Structure
 
