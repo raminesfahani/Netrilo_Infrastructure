@@ -18,3 +18,21 @@ Provides core contracts, interfaces, and abstractions used across other infrastr
 
 ```bash
 dotnet add package Netrilo.Infrastructure.Common.Abstractions
+```
+
+## 🧩 Usage
+
+```csharp
+public interface IEvent { }
+public interface IRepository<T> { /* ... */ }
+```
+
+## 🧪 Tests
+
+```
+Tests/Infrastructure.Common.Abstractions.Tests/
+```
+
+## 📄 License
+
+MIT License
