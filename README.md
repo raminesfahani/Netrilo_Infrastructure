@@ -1,9 +1,9 @@
 # Netrilo Infrastructure
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/raminesfahani/Netrilo_Infrastructure/dotnet-core.yml?branch=main)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions)
-[![License](https://img.shields.io/github/license/raminesfahani/Netrilo_Infrastructure)](LICENSE)
+[![Build & Publish NuGet Packages](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml/badge.svg)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml)
+[![License](https://img.shields.io/github/license/raminesfahani/Netrilo_Infrastructure-d3d3d3)](LICENSE)
 
-Netrilo_Infrastructure is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
+Netrilo is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
 
 ---
 
