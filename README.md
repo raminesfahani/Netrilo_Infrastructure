@@ -39,12 +39,12 @@ Each module targets a specific infrastructure concern:
 
 | Module | Purpose | Documentation |
 |--------|---------|----------------|
-| **Abstractions** | Core contracts and DI service definitions | [Read more](./Src/Infrastructure.Common.Abstractions) |
-| **Bus**         | Event bus & messaging pattern implementation | [Read more](Src/Infrastructure.Common.Bus) |
-| **Extensions**  | Common helper utilities and extension methods | [Read more](Src/Infrastructure.Common.Extensions) |
-| **Logging**     | Structured logging setup using Serilog | [Read more](Src/Infrastructure.Common.Logging) |
-| **Persistence** | EF Core integration, repository pattern, migrations | [Read more](Src/Infrastructure.Common.Persistence) |
-| **Web**         | API filters, model binding, controller base logic | [Read more](Src/Infrastructure.Common.Web) |
+| **Abstractions** | Core contracts and DI service definitions | [Documentation](Src/Netrilo.Infrastructure.Common.Abstractions) |
+| **Bus**         | Event bus & messaging pattern implementation | [Documentation](Src/Netrilo.Infrastructure.Common.Bus) |
+| **Extensions**  | Common helper utilities and extension methods | [Documentation](Src/Netrilo.Infrastructure.Common.Extensions) |
+| **Logging**     | Structured logging setup using Serilog | [Documentation](Src/Netrilo.Infrastructure.Common.Logging) |
+| **Persistence** | EF Core integration, repository pattern, migrations | [Documentation](Src/Netrilo.Infrastructure.Common.Persistence) |
+| **Web**         | API filters, model binding, controller base logic | [Documentation](Src/Netrilo.Infrastructure.Common.Web) |
 
 
 These modules can be installed independently and used in isolation or together.
