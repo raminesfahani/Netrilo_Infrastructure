@@ -39,7 +39,7 @@ Each module targets a specific infrastructure concern:
 
 | Module | Purpose | Documentation |
 |--------|---------|----------------|
-| **Abstractions** | Core contracts and DI service definitions | [Read more](Src/Infrastructure.Common.Abstractions) |
+| **Abstractions** | Core contracts and DI service definitions | [Read more](./Src/Infrastructure.Common.Abstractions) |
 | **Bus**         | Event bus & messaging pattern implementation | [Read more](Src/Infrastructure.Common.Bus) |
 | **Extensions**  | Common helper utilities and extension methods | [Read more](Src/Infrastructure.Common.Extensions) |
 | **Logging**     | Structured logging setup using Serilog | [Read more](Src/Infrastructure.Common.Logging) |
