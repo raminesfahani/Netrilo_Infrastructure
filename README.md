@@ -6,6 +6,14 @@
 
 Netrilo is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
 
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions)
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus)
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions)
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging)
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence)
+[![NuGet](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web)
+
+
 ---
 
 ## Projects
