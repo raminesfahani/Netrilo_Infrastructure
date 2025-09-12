@@ -1,14 +1,14 @@
-using Infrastructure.Common.Abstractions.Commands;
 using Infrastructure.Common.Abstractions.Events;
+using Infrastructure.Common.Abstractions.Queries;
 using MediatR;
 using Moq;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
+namespace Infrastructure.Common.Bus.UnitTests.Mediator
 {
-    public class CommandHandlerUnitTests
+    public class QueryHandlerUnitTests
     {
         // init
-        class TestCommand : ICommand<TestResponse>
+        class TestQuery : IQuery<TestResponse>
         {
             public Guid Id { get; init; }
         }
@@ -20,11 +20,11 @@ namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
         class TestEvent : IEvent
         { }
 
-        class TestRequestHandler(IMediator mediator) : ICommandHandler<TestCommand, TestResponse>
+        class TestQueryHandler(IMediator mediator) : IQueryHandler<TestQuery, TestResponse>
         {
             public IMediator Mediator { get; set; } = mediator;
 
-            public async Task<TestResponse> Handle(TestCommand request, CancellationToken cancellationToken)
+            public async Task<TestResponse> Handle(TestQuery request, CancellationToken cancellationToken)
             {
                 //do some stuff
 
@@ -34,14 +34,14 @@ namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
         }
 
         [Fact]
-        public async Task Check_Binded_Command_Handler_Is_Valid()
+        public async Task Check_Binded_Query_Handler_Is_Valid()
         {
             //Arrange
             var mediator = new Mock<IMediator>();
 
             Guid id = Guid.NewGuid();
-            TestCommand command = new() { Id = id };
-            TestRequestHandler handler = new(mediator.Object);
+            TestQuery command = new() { Id = id };
+            TestQueryHandler handler = new(mediator.Object);
 
             //Act
             TestResponse x = await handler.Handle(command, new CancellationToken());
@@ -51,4 +51,5 @@ namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
             Assert.Equal(id, x.Id);
         }
     }
+
 }

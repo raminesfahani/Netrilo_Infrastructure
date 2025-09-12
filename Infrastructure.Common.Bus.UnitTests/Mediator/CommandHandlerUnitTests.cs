@@ -1,13 +1,14 @@
+using Infrastructure.Common.Abstractions.Commands;
 using Infrastructure.Common.Abstractions.Events;
 using MediatR;
 using Moq;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
+namespace Infrastructure.Common.Bus.UnitTests.Mediator
 {
-    public class RequestHandlerUnitTests
+    public class CommandHandlerUnitTests
     {
         // init
-        class TestRequest : IRequest<TestResponse>
+        class TestCommand : ICommand<TestResponse>
         {
             public Guid Id { get; init; }
         }
@@ -19,11 +20,11 @@ namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
         class TestEvent : IEvent
         { }
 
-        class TestRequestHandler(IMediator mediator) : IRequestHandler<TestRequest, TestResponse>
+        class TestRequestHandler(IMediator mediator) : ICommandHandler<TestCommand, TestResponse>
         {
             public IMediator Mediator { get; set; } = mediator;
 
-            public async Task<TestResponse> Handle(TestRequest request, CancellationToken cancellationToken)
+            public async Task<TestResponse> Handle(TestCommand request, CancellationToken cancellationToken)
             {
                 //do some stuff
 
@@ -33,13 +34,13 @@ namespace Infrastructure.Common.Abstractions.UnitTests.Handlers
         }
 
         [Fact]
-        public async Task Check_Binded_Request_Handler_Is_Valid()
+        public async Task Check_Binded_Command_Handler_Is_Valid()
         {
             //Arrange
             var mediator = new Mock<IMediator>();
 
             Guid id = Guid.NewGuid();
-            TestRequest command = new() { Id = id };
+            TestCommand command = new() { Id = id };
             TestRequestHandler handler = new(mediator.Object);
 
             //Act
