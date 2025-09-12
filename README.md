@@ -7,6 +7,8 @@
 **Netrilo** is a modular infrastructure SDK for modern .NET applications.  
 It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architecture.
 
+![Netrilo Logo](https://github.com/raminesfahani/Netrilo_Infrastructure/raw/main/logo.png)
+
 ---
 
 ## 📚 Table of Contents
