@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <PackageId>Infrastructure.Common.Abstractions</PackageId>
-    <Authors>Infrastructure</Authors>
+    <PackageId>Netrilo.Infrastructure.Common.Abstractions</PackageId>
+    <Authors>Netrilo</Authors>
     <Description>Common Abstract Classes</Description>
     <Version>1.0.1</Version>
     <ImplicitUsings>enable</ImplicitUsings>

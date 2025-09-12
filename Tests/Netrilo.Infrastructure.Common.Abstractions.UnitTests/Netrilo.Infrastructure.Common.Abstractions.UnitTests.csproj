@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Common.Abstractions\Infrastructure.Common.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Src\Netrilo.Infrastructure.Common.Abstractions\Netrilo.Infrastructure.Common.Abstractions.csproj" />
   </ItemGroup>
 
   <ItemGroup>

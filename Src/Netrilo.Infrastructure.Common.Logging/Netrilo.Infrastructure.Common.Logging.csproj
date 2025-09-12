@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <PackageId>Infrastructure.Common.Logging</PackageId>
-    <Authors>Infrastructure</Authors>
+    <PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
+    <Authors>Netrilo</Authors>
     <Description>Implemented Logging Services</Description>
     <Version>1.0.1</Version>
     <ImplicitUsings>enable</ImplicitUsings>

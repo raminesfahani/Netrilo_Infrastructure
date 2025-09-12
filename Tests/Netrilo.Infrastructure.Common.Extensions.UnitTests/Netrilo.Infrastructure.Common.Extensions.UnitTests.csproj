@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Infrastructure.Common.Extensions\Infrastructure.Common.Extensions.csproj" />
+	  <ProjectReference Include="..\..\Src\Netrilo.Infrastructure.Common.Extensions\Netrilo.Infrastructure.Common.Extensions.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

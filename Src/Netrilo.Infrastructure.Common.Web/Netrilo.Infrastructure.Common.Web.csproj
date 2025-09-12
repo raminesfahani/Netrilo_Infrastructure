@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <PackageId>Infrastructure.Common.Web</PackageId>
-    <Authors>Infrastructure</Authors>
+    <PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
+    <Authors>Netrilo</Authors>
     <Description>Usual Implementations for Web APIs and Application usages</Description>
     <Version>1.0.1</Version>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -30,6 +30,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Infrastructure.Common.Abstractions\Infrastructure.Common.Abstractions.csproj" />
+	  <ProjectReference Include="..\Netrilo.Infrastructure.Common.Abstractions\Netrilo.Infrastructure.Common.Abstractions.csproj" />
 	</ItemGroup>
 </Project>
