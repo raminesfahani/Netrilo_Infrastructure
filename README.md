@@ -19,6 +19,7 @@ It provides plug-and-play building blocks for common concerns like logging, pers
 - [Installation](#-installation)
 - [Build Instructions](#-build-instructions)
 - [Unit Tests](#-unit-tests)
+- [Azure Artifact Deployment](#-azure-artifact-deployment)
 - [Repository Structure](#-repository-structure)
 - [Contribution Guide](#-contribution-guide)
 - [License](#-license)
@@ -31,8 +32,9 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 
 - 🔌 **Modular**: Use only what you need.
 - 🧪 **Testable**: Fully decoupled, allowing unit testing and mocking.
-- ♻️ **Reusable**: Drop into any .NET Core / .NET 6+ project.
+- ♻️ **Reusable**: Drop into any .NET Core / .NET 8+ project.
 - 🔍 **Discoverable**: Each module has its own documentation and NuGet package.
+- 🛫 **Easy Deployment**: Easy, customizable and flexible Azure and Github artifacts deployment.
 
 ---
 
@@ -64,6 +66,12 @@ These modules can be installed independently and used in isolation or together.
 | **Logging** | [![Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging) |
 | **Persistence** | [![Persistence](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence) |
 | **Web** | [![Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web) |
+
+---
+
+## 🛫 Azure Artifact Deployment
+
+You can easily configure and customize this [YAML Pipeline](Src/Deployment/Azure-Pipeline.yml) file for deploying on Azure Artifact by setting your environment variables and repo.
 
 ---
 
