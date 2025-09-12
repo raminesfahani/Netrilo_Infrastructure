@@ -1,4 +1,4 @@
-# Netrilo Infrastructure
+# Netrilo.Infrastructure
 
 [![Build & Publish NuGet Packages](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml/badge.svg)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -113,14 +113,24 @@ Src/
 ├── Infrastructure.Common.Extensions/
 ├── Infrastructure.Common.Logging/
 ├── Infrastructure.Common.Persistence/
-└── Infrastructure.Common.Web/
+├── Infrastructure.Common.Web/
+
+Tests/
+├── Infrastructure.Common.Abstractions.Tests/
+├── Infrastructure.Common.Bus.Tests/
+├── Infrastructure.Common.Extensions.Tests/
+├── Infrastructure.Common.Logging.Tests/
+├── Infrastructure.Common.Persistence.Tests/
+├── Infrastructure.Common.Web.Tests/
+
 .github/
-├── workflows/
-│   └── dotnet.yml     → CI/CD pipeline
+└── workflows/
+    └── dotnet.yml     → CI/CD pipeline
+
 artifacts/              → Generated NuGet packages
 ```
 
-Each folder contains its own README and is published as a standalone NuGet package.
+Each project and test project has its own README and is published as a standalone NuGet package.
 
 ---
 
