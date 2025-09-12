@@ -1,7 +1,7 @@
 # Netrilo Infrastructure
 
 [![Build & Publish NuGet Packages](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml/badge.svg)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml)
-[![License](https://img.shields.io/github/license/raminesfahani/Netrilo_Infrastructure-d3d3d3)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Netrilo is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
 
@@ -14,7 +14,7 @@ Netrilo is a .NET Core infrastructure library with multiple modules to simplify 
 | [Infrastructure](./Src/Infrastructure/README.md) | Core infrastructure library for logging, DB, event bus, and pipelines. |
 | [ServiceA](./Src/ServiceA/README.md) | Example microservice using Infrastructure module. |
 | [ServiceB](./Src/ServiceB/README.md) | Another microservice showing event bus usage. |
-| … | … |
+| â€¦ | â€¦ |
 
 ---
 
