@@ -6,12 +6,13 @@
 
 Netrilo is a .NET Core infrastructure library with multiple modules to simplify building microservices and enterprise applications.
 
-[![Netrilo.Infrastructure.Common.Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions)
-[![Netrilo.Infrastructure.Common.Bus](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus)
-[![Netrilo.Infrastructure.Common.Extensions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions)
-[![Netrilo.Infrastructure.Common.Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging)
-[![Netrilo.Infrastructure.Common.Persistence](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence)
-[![Netrilo.Infrastructure.Common.Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web)
+[![Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions)
+[![Bus](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus)
+[![Extensions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions)
+[![Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging)
+[![Persistence](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence)
+[![Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web)
+
 
 
 
