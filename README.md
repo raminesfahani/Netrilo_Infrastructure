@@ -16,6 +16,7 @@ It provides plug-and-play building blocks for common concerns like logging, pers
 - [NuGet Packages](#-nuget-packages)
 - [Installation](#-installation)
 - [Build Instructions](#-build-instructions)
+- [Unit Tests](#-unit-tests)
 - [Repository Structure](#-repository-structure)
 - [Contribution Guide](#-contribution-guide)
 - [License](#-license)
@@ -93,8 +94,7 @@ dotnet pack --configuration Release --output ./artifacts
 
 ## 🧪 Unit Tests
 
-All unit tests for the repository are located under the `Tests/` folder.  
-Each project has a corresponding test project named `<ProjectName>.Tests`.
+All unit tests for the repository are located under the `Tests/` folder.
 
 ### Run all tests
 
@@ -108,17 +108,17 @@ dotnet test --configuration Release --no-build
 
 ```
 Package Projects/
-├── Infrastructure.Common.Abstractions/
-├── Infrastructure.Common.Bus/
-├── Infrastructure.Common.Extensions/
-├── Infrastructure.Common.Logging/
-├── Infrastructure.Common.Persistence/
-├── Infrastructure.Common.Web/
+├── Netrilo.Infrastructure.Common.Abstractions/
+├── Netrilo.Infrastructure.Common.Bus/
+├── Netrilo.Infrastructure.Common.Extensions/
+├── Netrilo.Infrastructure.Common.Logging/
+├── Netrilo.Infrastructure.Common.Persistence/
+├── Netrilo.Infrastructure.Common.Web/
 
 Test Projects/
-├── Infrastructure.Common.Abstractions.UnitTests/
-├── Infrastructure.Common.Bus.UnitTests/
-├── Infrastructure.Common.Extensions.UnitTests/
+├── Netrilo.Infrastructure.Common.Abstractions.UnitTests/
+├── Netrilo.Infrastructure.Common.Bus.UnitTests/
+├── Netrilo.Infrastructure.Common.Extensions.UnitTests/
 
 .github/
 └── workflows/
