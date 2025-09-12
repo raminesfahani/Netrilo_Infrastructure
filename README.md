@@ -37,14 +37,15 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 
 Each module targets a specific infrastructure concern:
 
-| Layer | Purpose |
-|------|---------|
-| Abstractions | Core contracts and DI service definitions |
-| Bus         | Event bus & messaging pattern implementation |
-| Extensions  | Common helper utilities and extension methods |
-| Logging     | Structured logging setup using Serilog |
-| Persistence | EF Core integration, repository pattern, migrations |
-| Web         | API filters, model binding, controller base logic |
+| Module | Purpose | Documentation |
+|--------|---------|----------------|
+| **Abstractions** | Core contracts and DI service definitions | [Read more](Src/Infrastructure.Common.Abstractions/README.md) |
+| **Bus**         | Event bus & messaging pattern implementation | [Read more](Src/Infrastructure.Common.Bus/README.md) |
+| **Extensions**  | Common helper utilities and extension methods | [Read more](Src/Infrastructure.Common.Extensions/README.md) |
+| **Logging**     | Structured logging setup using Serilog | [Read more](Src/Infrastructure.Common.Logging/README.md) |
+| **Persistence** | EF Core integration, repository pattern, migrations | [Read more](Src/Infrastructure.Common.Persistence/README.md) |
+| **Web**         | API filters, model binding, controller base logic | [Read more](Src/Infrastructure.Common.Web/README.md) |
+
 
 These modules can be installed independently and used in isolation or together.
 
