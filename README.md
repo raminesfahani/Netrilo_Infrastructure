@@ -4,21 +4,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Language](https://img.shields.io/github/languages/top/raminesfahani/Netrilo_Infrastructure)](https://github.com/raminesfahani/Netrilo_Infrastructure/search?l=c%23)
 
-**Netrilo.Infrastructure** is a modular infrastructure SDK for modern .NET applications.  
+**Netrilo** is a modular infrastructure SDK for modern .NET applications.  
 It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architecture.
 
 ---
 
 ## 📚 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Architecture Overview](#architecture-overview)
-- [NuGet Packages](#nuget-packages)
-- [Installation](#installation)
-- [Build Instructions](#build-instructions)
-- [Repository Structure](#repository-structure)
-- [Contribution Guide](#contribution-guide)
-- [License](#license)
+- [About the Project](#-about-the-project)
+- [Architecture Overview](#-architecture-overview)
+- [NuGet Packages](#-nuget-packages)
+- [Installation](#-installation)
+- [Build Instructions](#-build-instructions)
+- [Repository Structure](#-repository-structure)
+- [Contribution Guide](#-contribution-guide)
+- [License](#-license)
 
 ---
 
