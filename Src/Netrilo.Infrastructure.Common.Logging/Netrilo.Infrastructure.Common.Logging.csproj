@@ -4,7 +4,7 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
-		<Authors>Netrilo</Authors>
+		<Authors>raminesfahani</Authors>
 		<Description>Implemented Logging Services</Description>
 		<Version>1.0.1</Version>
 		<ImplicitUsings>enable</ImplicitUsings>

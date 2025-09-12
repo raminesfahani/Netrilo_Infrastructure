@@ -4,7 +4,7 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Abstractions</PackageId>
-		<Authors>Netrilo</Authors>
+		<Authors>raminesfahani</Authors>
 		<Description>Common Abstract Classes</Description>
 		<Version>1.0.1</Version>
 		<ImplicitUsings>enable</ImplicitUsings>

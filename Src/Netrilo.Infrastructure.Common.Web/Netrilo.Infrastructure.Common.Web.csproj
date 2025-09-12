@@ -4,7 +4,7 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
-		<Authors>Netrilo</Authors>
+		<Authors>raminesfahani</Authors>
 		<Description>Usual Implementations for Web APIs and Application usages</Description>
 		<Version>1.0.1</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
