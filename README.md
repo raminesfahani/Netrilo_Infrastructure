@@ -39,12 +39,12 @@ Each module targets a specific infrastructure concern:
 
 | Module | Purpose | Documentation |
 |--------|---------|----------------|
-| **Abstractions** | Core contracts and DI service definitions | [Read more](Src/Infrastructure.Common.Abstractions/README.md) |
-| **Bus**         | Event bus & messaging pattern implementation | [Read more](Src/Infrastructure.Common.Bus/README.md) |
-| **Extensions**  | Common helper utilities and extension methods | [Read more](Src/Infrastructure.Common.Extensions/README.md) |
-| **Logging**     | Structured logging setup using Serilog | [Read more](Src/Infrastructure.Common.Logging/README.md) |
-| **Persistence** | EF Core integration, repository pattern, migrations | [Read more](Src/Infrastructure.Common.Persistence/README.md) |
-| **Web**         | API filters, model binding, controller base logic | [Read more](Src/Infrastructure.Common.Web/README.md) |
+| **Abstractions** | Core contracts and DI service definitions | [Read more](Src/Infrastructure.Common.Abstractions) |
+| **Bus**         | Event bus & messaging pattern implementation | [Read more](Src/Infrastructure.Common.Bus) |
+| **Extensions**  | Common helper utilities and extension methods | [Read more](Src/Infrastructure.Common.Extensions) |
+| **Logging**     | Structured logging setup using Serilog | [Read more](Src/Infrastructure.Common.Logging) |
+| **Persistence** | EF Core integration, repository pattern, migrations | [Read more](Src/Infrastructure.Common.Persistence) |
+| **Web**         | API filters, model binding, controller base logic | [Read more](Src/Infrastructure.Common.Web) |
 
 
 These modules can be installed independently and used in isolation or together.
