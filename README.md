@@ -71,7 +71,7 @@ These modules can be installed independently and used in isolation or together.
 
 ## 🛫 Azure Artifact Deployment
 
-You can easily configure and customize this [YAML Pipeline](Src/blob/main/Deployment/Azure-Pipeline.yml) file for deploying on Azure Artifact by setting your environment variables and repo.
+You can easily configure and customize this [YAML Pipeline](Deployment/Azure-Pipeline.yml) file for deploying on Azure Artifact by setting your environment variables and repo.
 
 ---
 
