@@ -37,14 +37,15 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 
 Each module targets a specific infrastructure concern:
 
-| Layer | Purpose |
-|------|---------|
-| Abstractions | Core contracts and DI service definitions |
-| Bus         | Event bus & messaging pattern implementation |
-| Extensions  | Common helper utilities and extension methods |
-| Logging     | Structured logging setup using Serilog |
-| Persistence | EF Core integration, repository pattern, migrations |
-| Web         | API filters, model binding, controller base logic |
+| Module | Purpose | Documentation |
+|--------|---------|----------------|
+| **Abstractions** | Core contracts and DI service definitions | [Documentation](Src/Netrilo.Infrastructure.Common.Abstractions) |
+| **Bus**         | Event bus & messaging pattern implementation | [Documentation](Src/Netrilo.Infrastructure.Common.Bus) |
+| **Extensions**  | Common helper utilities and extension methods | [Documentation](Src/Netrilo.Infrastructure.Common.Extensions) |
+| **Logging**     | Structured logging setup using Serilog | [Documentation](Src/Netrilo.Infrastructure.Common.Logging) |
+| **Persistence** | EF Core integration, repository pattern, migrations | [Documentation](Src/Netrilo.Infrastructure.Common.Persistence) |
+| **Web**         | API filters, model binding, controller base logic | [Documentation](Src/Netrilo.Infrastructure.Common.Web) |
+
 
 These modules can be installed independently and used in isolation or together.
 
@@ -80,6 +81,7 @@ To build all projects and generate NuGet packages:
 ```bash
 dotnet restore
 dotnet build --configuration Release
+dotnet pack --configuration Release --output ./artifacts
 ```
 
 ---
@@ -95,7 +97,7 @@ Use the following `dotnet` command to discover and run all tests in the reposito
 
 ```bash
 dotnet test --configuration Release --no-build
-
+```
 
 ## 🗂️ Repository Structure
 
