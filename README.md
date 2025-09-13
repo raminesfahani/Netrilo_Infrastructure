@@ -42,30 +42,17 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 
 Each module targets a specific infrastructure concern:
 
-| Module | Purpose | Documentation |
+| Module | Purpose | NuGet Package | Documentation |
 |--------|---------|----------------|
-| **Abstractions** | Core contracts and DI service definitions | [Documentation](Src/Netrilo.Infrastructure.Common.Abstractions) |
-| **Bus**         | Event bus & messaging pattern implementation | [Documentation](Src/Netrilo.Infrastructure.Common.Bus) |
-| **Extensions**  | Common helper utilities and extension methods | [Documentation](Src/Netrilo.Infrastructure.Common.Extensions) |
-| **Logging**     | Structured logging setup using Serilog | [Documentation](Src/Netrilo.Infrastructure.Common.Logging) |
-| **Persistence** | EF Core integration, repository pattern, migrations supporting SQL and NoSQL databases. | [Documentation](Src/Netrilo.Infrastructure.Common.Persistence) |
-| **Web**         | Implementing API explorers and filters, Validation and Exception handling, and Service Discovery | [Documentation](Src/Netrilo.Infrastructure.Common.Web) |
+| **Abstractions** | Core contracts and DI service definitions | [![Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions) | [Read More](Src/Netrilo.Infrastructure.Common.Abstractions) |
+| **Bus**         | Event bus & messaging pattern implementation | [![Bus](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus) | [Read More](Src/Netrilo.Infrastructure.Common.Bus) |
+| **Extensions**  | Common helper utilities and extension methods | [![Extensions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions) | [Read More](Src/Netrilo.Infrastructure.Common.Extensions) |
+| **Logging**     | Structured logging setup using Serilog | [![Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging) | [Read More](Src/Netrilo.Infrastructure.Common.Logging) |
+| **Persistence** | EF Core integration, repository pattern, migrations supporting SQL and NoSQL databases.| [![Persistence](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence) | [Read More](Src/Netrilo.Infrastructure.Common.Persistence) |
+| **Web**         | Implementing API explorers and filters, Validation and Exception handling, and Service Discovery| [![Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web) | [Read More](Src/Netrilo.Infrastructure.Common.Web) |
 
 
 These modules can be installed independently and used in isolation or together.
-
----
-
-## 📦 NuGet Packages
-
-| Module | NuGet |
-|--------|-------|
-| **Abstractions** | [![Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions) |
-| **Bus** | [![Bus](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus) |
-| **Extensions** | [![Extensions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions) |
-| **Logging** | [![Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging) |
-| **Persistence** | [![Persistence](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Persistence)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Persistence) |
-| **Web** | [![Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web) |
 
 ---
 
