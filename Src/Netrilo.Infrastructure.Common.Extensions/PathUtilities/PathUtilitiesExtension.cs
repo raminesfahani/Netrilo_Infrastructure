@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Extensions.PathUtilities.Exceptions;
+﻿using Netrilo.Infrastructure.Common.Extensions.PathUtilities.Exceptions;
 
-namespace Infrastructure.Common.Extensions.PathUtilities
+namespace Netrilo.Infrastructure.Common.Extensions.PathUtilities
 {
     public static class PathUtilitiesExtension
     {

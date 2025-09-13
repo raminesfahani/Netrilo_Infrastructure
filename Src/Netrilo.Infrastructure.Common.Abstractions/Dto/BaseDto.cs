@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Abstractions.Dto
+﻿namespace Netrilo.Infrastructure.Common.Abstractions.Dto
 {
     public class BaseDto<T>
     {

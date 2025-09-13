@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Settings
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Settings
 {
     public class MongoDbSettings : IMongoDbSettings
     {

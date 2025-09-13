@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Infrastructure.Common.Abstractions.Exceptions
+namespace Netrilo.Infrastructure.Common.Abstractions.Exceptions
 {
     public class CustomApplicationException(string message, HttpStatusCode statusCode, IEnumerable<string> errors = null) : Exception(message)
     {

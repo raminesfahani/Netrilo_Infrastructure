@@ -8,7 +8,7 @@ using Serilog.Core;
 using Serilog.Exceptions;
 using System.Linq;
 
-namespace Infrastructure.Common.Logging.Serilog
+namespace Netrilo.Infrastructure.Common.Logging.Serilog
 {
     public static class LoggingExtensions
     {

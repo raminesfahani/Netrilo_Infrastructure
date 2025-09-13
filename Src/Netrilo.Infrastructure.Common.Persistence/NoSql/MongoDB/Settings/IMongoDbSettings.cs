@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Settings
+﻿namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Settings
 {
     public interface IMongoDbSettings
     {

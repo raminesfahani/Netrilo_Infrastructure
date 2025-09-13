@@ -9,10 +9,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using System.Net;
-using Infrastructure.Common.Abstractions.Dto;
-using Infrastructure.Common.Abstractions.Exceptions;
+using Netrilo.Infrastructure.Common.Abstractions.Dto;
+using Netrilo.Infrastructure.Common.Abstractions.Exceptions;
 
-namespace Infrastructure.Common.Web
+namespace Netrilo.Infrastructure.Common.Web
 {
     public class ExceptionFilter(
         IWebHostEnvironment env,

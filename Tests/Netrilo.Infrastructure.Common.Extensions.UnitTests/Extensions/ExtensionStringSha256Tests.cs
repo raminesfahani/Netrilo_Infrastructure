@@ -1,7 +1,7 @@
-﻿using Infrastructure.Common.Extensions.Extensions.String;
+﻿using Netrilo.Infrastructure.Common.Extensions.Extensions.String;
 using Xunit.Abstractions;
 
-namespace Infrastructure.Common.Extensions.UnitTests.Extensions
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.Extensions
 {
     public class ExtensionStringSha256Tests
     {

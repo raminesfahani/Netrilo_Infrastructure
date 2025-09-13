@@ -11,10 +11,10 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Infrastructure.Common.Abstractions;
-using Infrastructure.Common.Web.ServiceDiscovery.ApplicationInsight;
+using Netrilo.Infrastructure.Common.Web.ServiceDiscovery.ApplicationInsight;
+using Netrilo.Infrastructure.Common.Abstractions;
 
-namespace Infrastructure.Common.Web
+namespace Netrilo.Infrastructure.Common.Web
 {
     public static class WebExtensions
     {

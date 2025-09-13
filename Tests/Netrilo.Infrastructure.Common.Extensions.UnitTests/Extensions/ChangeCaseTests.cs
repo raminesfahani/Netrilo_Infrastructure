@@ -1,8 +1,8 @@
-﻿using Infrastructure.Common.Extensions.Extensions.String;
-using Infrastructure.Common.Extensions.Tests;
+﻿using Netrilo.Infrastructure.Common.Extensions.Extensions.String;
+using Netrilo.Infrastructure.Common.Extensions.Tests;
 using Xunit.Abstractions;
 
-namespace Infrastructure.Common.Extensions.UnitTests.Extensions
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.Extensions
 {
     public class StringUtilityTests(ITestOutputHelper output) : TestBase(output)
     {

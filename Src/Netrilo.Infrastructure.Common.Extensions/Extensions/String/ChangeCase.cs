@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Infrastructure.Common.Extensions.Extensions.String
+namespace Netrilo.Infrastructure.Common.Extensions.Extensions.String
 {
     /// <summary>
     /// Convert cases as per example: https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats

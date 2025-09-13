@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Abstractions.Exceptions
+﻿namespace Netrilo.Infrastructure.Common.Abstractions.Exceptions
 {
     public class ValidationException(string message) : Exception(message)
     {

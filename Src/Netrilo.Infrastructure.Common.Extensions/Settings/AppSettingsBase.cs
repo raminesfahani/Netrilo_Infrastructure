@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Extensions.Settings.Interfaces;
+﻿using Netrilo.Infrastructure.Common.Extensions.Settings.Interfaces;
 
-namespace Infrastructure.Common.Extensions.Settings
+namespace Netrilo.Infrastructure.Common.Extensions.Settings
 {
     public abstract class AppSettingsBase(IGlobalSettings global, IWorkerSettings worker) : IAppSettings
     {

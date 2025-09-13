@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Infrastructure.Common.Abstractions.Dto
+namespace Netrilo.Infrastructure.Common.Abstractions.Dto
 {
     [Serializable]
     public class BaseDevelpmentExceptionResponse(string title,

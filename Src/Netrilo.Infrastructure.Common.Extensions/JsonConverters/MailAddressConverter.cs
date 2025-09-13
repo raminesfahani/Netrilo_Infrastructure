@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net.Mail;
 using System.Text;
 
-namespace Infrastructure.Common.Extensions.JsonConverters
+namespace Netrilo.Infrastructure.Common.Extensions.JsonConverters
 {
     public class MailAddressConverter : JsonConverter
     {

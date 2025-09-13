@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Infrastructure.Common.Persistence.NoSql.MongoDB.Repository;
-using Infrastructure.Common.Persistence.NoSql.MongoDB.Settings;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Settings;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Repository;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB
 {
     public static class ServiceRegistration
     {

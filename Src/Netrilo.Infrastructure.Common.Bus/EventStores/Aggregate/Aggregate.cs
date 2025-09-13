@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Abstractions.Events;
+﻿using Netrilo.Infrastructure.Common.Abstractions.Events;
 
-namespace Infrastructure.Common.Bus.EventStores.Aggregate
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate
 {
     public abstract class Aggregate : IAggregate
     {

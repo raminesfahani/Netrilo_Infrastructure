@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Infrastructure.Common.Abstractions.Dto;
-using Infrastructure.Common.Abstractions.Exceptions;
+using Netrilo.Infrastructure.Common.Abstractions.Dto;
+using Netrilo.Infrastructure.Common.Abstractions.Exceptions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Moq;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Mappings
+namespace Netrilo.Infrastructure.Common.Abstractions.UnitTests.Mappings
 {
     public class MappingUnitTests
     {

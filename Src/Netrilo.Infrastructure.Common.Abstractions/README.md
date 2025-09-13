@@ -11,20 +11,14 @@
 Provides core contracts, interfaces, and abstractions used across other infrastructure modules.
 
 - Dependency Injection contracts
-- Interfaces for logging, messaging, and more
+- Interfaces for logging, messaging bus, domain driven exceptions, and more
 - Promotes separation of concerns
+- ...
 
 ## 🚀 Installation
 
 ```bash
 dotnet add package Netrilo.Infrastructure.Common.Abstractions
-```
-
-## 🧩 Usage
-
-```csharp
-public interface IEvent { }
-public interface IRepository<T> { /* ... */ }
 ```
 
 ## 🧪 Tests
@@ -33,6 +27,8 @@ public interface IRepository<T> { /* ... */ }
 Tests/Infrastructure.Common.Abstractions.Tests/
 ```
 
-## 📄 License
+Run the following command to run the tests:
 
-MIT License
+```bash
+dotnet test .\Tests\Netrilo.Infrastructure.Common.Abstractions.UnitTests\Netrilo.Infrastructure.Common.Abstractions.UnitTests.csproj
+```

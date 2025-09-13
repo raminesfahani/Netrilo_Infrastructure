@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Infrastructure.Common.Abstractions.Events
+namespace Netrilo.Infrastructure.Common.Abstractions.Events
 {
     public interface IEventHandler<T> : INotificationHandler<T> where T : IEvent
     { }

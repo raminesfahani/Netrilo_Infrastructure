@@ -1,9 +1,9 @@
-using Infrastructure.Common.Abstractions.Abstracts;
-using Infrastructure.Common.Abstractions.Commands;
-using Infrastructure.Common.Abstractions.Dto;
+using Netrilo.Infrastructure.Common.Abstractions.Abstracts;
+using Netrilo.Infrastructure.Common.Abstractions.Commands;
 using Moq;
+using Netrilo.Infrastructure.Common.Abstractions.Dto;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Dto
+namespace Netrilo.Infrastructure.Common.Abstractions.UnitTests.Dto
 {
     public class DtoUnitTests
     {

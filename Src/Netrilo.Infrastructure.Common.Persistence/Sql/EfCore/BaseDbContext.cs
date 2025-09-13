@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
-namespace Infrastructure.Common.Persistence.Sql.EfCore
+namespace Netrilo.Infrastructure.Common.Persistence.Sql.EfCore
 {
     public class BaseDbContext(DbContextOptions options) : DbContext(options)
     {

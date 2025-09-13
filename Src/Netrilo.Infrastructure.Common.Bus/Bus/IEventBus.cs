@@ -1,6 +1,6 @@
 ﻿using MassTransit;
 
-namespace Infrastructure.Common.Bus.Bus
+namespace Netrilo.Infrastructure.Common.Bus.Bus
 {
     public interface IEventBus
     {

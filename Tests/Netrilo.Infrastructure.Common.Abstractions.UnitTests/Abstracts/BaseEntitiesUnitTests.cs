@@ -1,7 +1,7 @@
-using Infrastructure.Common.Abstractions.Abstracts;
-using Infrastructure.Common.Abstractions.Commands;
+using Netrilo.Infrastructure.Common.Abstractions.Commands;
+using Netrilo.Infrastructure.Common.Abstractions.Abstracts;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Abstracts
+namespace Netrilo.Infrastructure.Common.Abstractions.UnitTests.Abstracts
 {
     public class BaseEntitiesUnitTests
     {

@@ -1,7 +1,7 @@
-﻿using Infrastructure.Common.Extensions.Tools;
+﻿using Netrilo.Infrastructure.Common.Extensions.Tools;
 using Xunit.Abstractions;
 
-namespace Infrastructure.Common.Extensions.Tests
+namespace Netrilo.Infrastructure.Common.Extensions.Tests
 {
     public abstract class TestBase(ITestOutputHelper outputHelper)
     {

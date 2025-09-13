@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Abstractions.Abstracts
+namespace Netrilo.Infrastructure.Common.Abstractions.Abstracts
 {
 
     public abstract class BaseAuditableEntity<TKey> : BaseEntity<TKey>, IBaseAuditableEntity

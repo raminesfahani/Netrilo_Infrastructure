@@ -1,12 +1,12 @@
-﻿using Infrastructure.Common.Bus.Bus;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
-using Infrastructure.Common.Abstractions.Commands;
-using Infrastructure.Common.Abstractions.Queries;
-using Infrastructure.Common.Abstractions;
+using Netrilo.Infrastructure.Common.Bus.Bus;
+using Netrilo.Infrastructure.Common.Abstractions;
+using Netrilo.Infrastructure.Common.Abstractions.Commands;
+using Netrilo.Infrastructure.Common.Abstractions.Queries;
 
-namespace Infrastructure.Common.Bus
+namespace Netrilo.Infrastructure.Common.Bus
 {
     public static class BusExtensions
     {

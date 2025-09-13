@@ -2,12 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using Infrastructure.Common.Bus.EventStores.Aggregate;
-using Infrastructure.Common.Bus.EventStores.Repository;
-using Infrastructure.Common.Bus.EventStores.Stores.EfCore;
-using Infrastructure.Common.Bus.EventStores.Stores.MongoDb;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores.EfCore;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Repository;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores.MongoDb;
 
-namespace Infrastructure.Common.Bus.EventStores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public static class EventStoresExtensions
     {

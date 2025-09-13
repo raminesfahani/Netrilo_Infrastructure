@@ -1,6 +1,6 @@
 using Infrastructure.Extensions.String;
 
-namespace Infrastructure.Common.Extensions.UnitTests.Extensions
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.Extensions
 {
     public class StringExtensionsUnitTests
     {

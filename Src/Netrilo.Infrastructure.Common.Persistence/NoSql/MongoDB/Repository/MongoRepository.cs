@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions;
-using Infrastructure.Common.Persistence.NoSql.MongoDB.Settings;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Settings;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Repository
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Repository
 {
     public class MongoRepository<TDocument> : IMongoRepository<TDocument>
     where TDocument : IDocument

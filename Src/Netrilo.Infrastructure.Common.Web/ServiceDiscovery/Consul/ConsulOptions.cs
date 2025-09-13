@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Web.ServiceDiscovery.Consul
+﻿namespace Netrilo.Infrastructure.Common.Web.ServiceDiscovery.Consul
 {
     public class ConsulOptions
     {

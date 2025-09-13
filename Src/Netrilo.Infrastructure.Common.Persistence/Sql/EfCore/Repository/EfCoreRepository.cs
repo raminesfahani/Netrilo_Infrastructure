@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 //using MongoDB.Driver.Linq;
 using System.Linq.Expressions;
-using Infrastructure.Common.Abstractions.Dto;
-using Infrastructure.Common.Abstractions.Abstracts;
+using Netrilo.Infrastructure.Common.Abstractions.Abstracts;
+using Netrilo.Infrastructure.Common.Abstractions.Dto;
 
-namespace Infrastructure.Common.Persistence.Sql.EfCore.Repository
+namespace Netrilo.Infrastructure.Common.Persistence.Sql.EfCore.Repository
 {
     public abstract class EfCoreRepository<TEntity, TContext, TKey>(TContext context) : IEfCoreRepository<TEntity, TKey>
         where TEntity : BaseEntity<TKey>
@@ -33,7 +33,7 @@ namespace Infrastructure.Common.Persistence.Sql.EfCore.Repository
             return entity;
         }
 
-        public async Task<TEntity> Get(TKey id, params Expression<Func<TEntity, object?>>[] includes)
+        public async Task<TEntity> Get(TKey id, params Expression<Func<TEntity, object>>[] includes)
         {
             var query = context.Set<TEntity>().AsQueryable();
 
@@ -45,7 +45,7 @@ namespace Infrastructure.Common.Persistence.Sql.EfCore.Repository
             return await query.FirstOrDefaultAsync(x => x.Id.ToString().ToLower() == id.ToString().ToLower());
         }
 
-        public async Task<IQueryable<TEntity>> GetAll(Expression<Func<TEntity, bool>>? predicate, params Expression<Func<TEntity, object?>>[] includes)
+        public async Task<IQueryable<TEntity>> GetAll(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes)
         {
             var query = context.Set<TEntity>().AsQueryable();
 

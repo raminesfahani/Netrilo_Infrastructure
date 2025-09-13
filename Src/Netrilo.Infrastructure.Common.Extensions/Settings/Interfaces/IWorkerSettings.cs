@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Extensions.Settings.Interfaces
+﻿namespace Netrilo.Infrastructure.Common.Extensions.Settings.Interfaces
 {
     public interface IWorkerSettings
     {

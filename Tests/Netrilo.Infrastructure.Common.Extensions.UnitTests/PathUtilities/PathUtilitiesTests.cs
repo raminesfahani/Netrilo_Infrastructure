@@ -1,7 +1,7 @@
-﻿using Infrastructure.Common.Extensions.PathUtilities;
-using Infrastructure.Common.Extensions.PathUtilities.Exceptions;
+﻿using Netrilo.Infrastructure.Common.Extensions.PathUtilities;
+using Netrilo.Infrastructure.Common.Extensions.PathUtilities.Exceptions;
 
-namespace Infrastructure.Common.Extensions.UnitTests.PathUtilities
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.PathUtilities
 {
     public class PathUtilitiesTests
     {

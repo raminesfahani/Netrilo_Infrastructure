@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores;
 
-namespace Infrastructure.Common.Bus.EventStores.Stores.EfCore
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores.EfCore
 {
     public static class EfCoreEventStoreExtensions
     {

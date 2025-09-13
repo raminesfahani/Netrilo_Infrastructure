@@ -9,9 +9,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Linq;
-using Infrastructure.Common.Web.ServiceDiscovery.Consul;
+using Netrilo.Infrastructure.Common.Web.ServiceDiscovery.Consul;
 
-namespace Infrastructure.Common.Web.ServiceDiscovery.ApplicationInsight
+namespace Netrilo.Infrastructure.Common.Web.ServiceDiscovery.ApplicationInsight
 {
     public static class ApplicationInsightExtensions
     {

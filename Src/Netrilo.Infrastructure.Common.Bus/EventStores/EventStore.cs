@@ -1,14 +1,13 @@
 ﻿using FluentValidation;
 using Newtonsoft.Json;
-using Infrastructure.Common.Abstractions.Events;
-using Infrastructure.Common.Bus.EventStores;
-using Infrastructure.Common.Bus.EventStores.Aggregate;
-using Infrastructure.Common.Bus.EventStores.Projection;
-using Infrastructure.Common.Bus.EventStores.Snapshot;
-using Infrastructure.Common.Bus.EventStores.Stores;
-using Infrastructure.Common.Bus.MessageBrokers;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores;
+using Netrilo.Infrastructure.Common.Bus.MessageBrokers;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Projection;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Snapshot;
+using Netrilo.Infrastructure.Common.Abstractions.Events;
 
-namespace Infrastructure.Common.Bus.EventStores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public class EventStore(IStore store, IValidatorFactory validationFactory) : IEventStore
     {

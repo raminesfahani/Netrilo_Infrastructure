@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using System.Collections;
-using Infrastructure.Common.Extensions.Tools.Annotations;
-using Infrastructure.Common.Extensions.Extensions.String;
-using Infrastructure.Common.Extensions.Tools.DotEnvExceptions;
+using Netrilo.Infrastructure.Common.Extensions.Tools.DotEnvExceptions;
+using Netrilo.Infrastructure.Common.Extensions.Tools.Annotations;
+using Netrilo.Infrastructure.Common.Extensions.Extensions.String;
 
-namespace Infrastructure.Common.Extensions.Tools
+namespace Netrilo.Infrastructure.Common.Extensions.Tools
 {
     public static class DotEnv
     {

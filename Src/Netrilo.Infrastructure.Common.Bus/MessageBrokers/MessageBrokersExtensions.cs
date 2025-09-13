@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Common.Bus.MessageBrokers
+namespace Netrilo.Infrastructure.Common.Bus.MessageBrokers
 {
     public static class MessageBrokersExtensions
     {

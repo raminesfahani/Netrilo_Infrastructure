@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Abstractions.Events
+namespace Netrilo.Infrastructure.Common.Abstractions.Events
 {
     public abstract class Event : IEvent
     {

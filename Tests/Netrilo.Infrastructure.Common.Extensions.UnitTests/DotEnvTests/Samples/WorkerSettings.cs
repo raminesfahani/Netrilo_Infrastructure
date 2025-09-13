@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Extensions.UnitTests.DotEnvTests.Samples
+﻿namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.DotEnvTests.Samples
 {
     public class WorkerSettings
     {

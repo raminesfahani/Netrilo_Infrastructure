@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Infrastructure.Common.Extensions.Extensions.String
+namespace Netrilo.Infrastructure.Common.Extensions.Extensions.String
 {
     public static class Sha256
     {

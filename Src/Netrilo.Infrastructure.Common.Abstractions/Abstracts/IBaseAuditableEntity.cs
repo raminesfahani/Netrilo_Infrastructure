@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Abstractions.Abstracts
+﻿namespace Netrilo.Infrastructure.Common.Abstractions.Abstracts
 {
     public interface IBaseAuditableEntity
     {

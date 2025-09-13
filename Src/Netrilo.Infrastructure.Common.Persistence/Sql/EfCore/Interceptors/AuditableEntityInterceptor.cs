@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using System;
 using System.Linq;
-using Infrastructure.Common.Abstractions.Abstracts;
+using Netrilo.Infrastructure.Common.Abstractions.Abstracts;
 
-namespace Infrastructure.Common.Persistence.Sql.EfCore.Interceptors
+namespace Netrilo.Infrastructure.Common.Persistence.Sql.EfCore.Interceptors
 {
     public class AuditableEntityInterceptor() : SaveChangesInterceptor()
     {

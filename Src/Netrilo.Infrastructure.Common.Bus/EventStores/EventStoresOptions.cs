@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Bus.EventStores
+﻿namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public class EventStoresOptions
     {

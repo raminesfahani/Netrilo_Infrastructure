@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Infrastructure.Common.Abstractions.Commands
+namespace Netrilo.Infrastructure.Common.Abstractions.Commands
 {
     public interface ICommand<out TResponse> : IRequest<TResponse>
     { }

@@ -1,7 +1,7 @@
 ﻿using System;
-using Infrastructure.Common.Bus.EventStores.Aggregate;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
 
-namespace Infrastructure.Common.Bus.EventStores.Snapshot
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Snapshot
 {
     public interface ISnapshot
     {

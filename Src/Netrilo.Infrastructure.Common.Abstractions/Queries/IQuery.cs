@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Infrastructure.Common.Abstractions.Queries
+namespace Netrilo.Infrastructure.Common.Abstractions.Queries
 {
     public interface IQuery<out TResponse> : IRequest<TResponse>
     { }

@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Abstractions.Events;
+﻿using Netrilo.Infrastructure.Common.Abstractions.Events;
 
-namespace Infrastructure.Common.Bus.MessageBrokers
+namespace Netrilo.Infrastructure.Common.Bus.MessageBrokers
 {
     public static class MessageBrokersHelper
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions
+namespace Netrilo.Infrastructure.Common.Abstractions
 {
     public static class Mapping
     {

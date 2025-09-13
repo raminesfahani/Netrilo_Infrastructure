@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.Abstracts
+namespace Netrilo.Infrastructure.Common.Abstractions.Abstracts
 {
     public abstract class BaseEntity<TKey>
     {

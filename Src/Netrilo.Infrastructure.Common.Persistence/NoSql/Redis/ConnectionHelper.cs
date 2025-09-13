@@ -2,7 +2,7 @@
 using System;
 using static Infrastructure.Databases.Redis.ServiceRegistration;
 
-namespace Infrastructure.Common.Persistence.NoSql.Redis
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.Redis
 {
     public static class ConnectionHelper
     {

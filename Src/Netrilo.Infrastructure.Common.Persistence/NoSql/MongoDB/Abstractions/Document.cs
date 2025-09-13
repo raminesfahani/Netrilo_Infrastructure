@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions
 {
     public abstract class Document : IDocument
     {

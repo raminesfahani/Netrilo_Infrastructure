@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.Commands
+namespace Netrilo.Infrastructure.Common.Abstractions.Commands
 {
     public interface ICommandBus
     {

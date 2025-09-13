@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.Queries
+namespace Netrilo.Infrastructure.Common.Abstractions.Queries
 {
     public interface IQueryBus
     {

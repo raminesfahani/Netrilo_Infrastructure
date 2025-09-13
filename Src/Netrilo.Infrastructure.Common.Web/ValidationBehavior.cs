@@ -3,7 +3,7 @@ using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Web
+namespace Netrilo.Infrastructure.Common.Web
 {
     public class ValidationBehavior<TRequest, TResponse>(IValidatorFactory validationFactory) : IPipelineBehavior<TRequest, TResponse>
     {

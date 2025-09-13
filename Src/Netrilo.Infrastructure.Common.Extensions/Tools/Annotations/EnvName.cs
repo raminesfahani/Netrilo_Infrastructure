@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Extensions.Tools.Annotations
+namespace Netrilo.Infrastructure.Common.Extensions.Tools.Annotations
 {
 
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false)]  // Multiuse attribute.  

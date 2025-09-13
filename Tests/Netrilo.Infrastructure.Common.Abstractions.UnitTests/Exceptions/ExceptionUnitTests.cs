@@ -1,5 +1,5 @@
-﻿using Infrastructure.Common.Abstractions.Dto;
-using Infrastructure.Common.Abstractions.Exceptions;
+﻿using Netrilo.Infrastructure.Common.Abstractions.Dto;
+using Netrilo.Infrastructure.Common.Abstractions.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.UnitTests.Exceptions
+namespace Netrilo.Infrastructure.Common.Abstractions.UnitTests.Exceptions
 {
     public class ExceptionUnitTests
     {

@@ -4,9 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Reflection;
-using Infrastructure.Common.Web.ApiExplorer.Swagger;
+using Netrilo.Infrastructure.Common.Web.ApiExplorer.Swagger;
 
-namespace Infrastructure.Common.Web.ApiExplorer.Swagger
+namespace Netrilo.Infrastructure.Common.Web.ApiExplorer.Swagger
 {
     public static class SwaggerExtensions
     {

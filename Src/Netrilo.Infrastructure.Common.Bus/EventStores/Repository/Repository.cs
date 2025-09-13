@@ -1,7 +1,8 @@
-﻿using Infrastructure.Common.Bus.Bus;
-using Infrastructure.Common.Bus.EventStores.Aggregate;
+﻿using Netrilo.Infrastructure.Common.Bus.Bus;
+using Netrilo.Infrastructure.Common.Bus.EventStores;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
 
-namespace Infrastructure.Common.Bus.EventStores.Repository
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Repository
 {
     public class Repository<TAggregate>(IEventStore eventStore, IEventBus eventBus) : IRepository<TAggregate> where TAggregate : IAggregate
     {

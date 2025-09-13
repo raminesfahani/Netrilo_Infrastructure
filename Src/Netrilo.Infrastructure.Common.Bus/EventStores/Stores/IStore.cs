@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Infrastructure.Common.Bus.EventStores;
+using Netrilo.Infrastructure.Common.Bus.EventStores;
 
-namespace Infrastructure.Common.Bus.EventStores.Stores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores
 {
     public interface IStore
     {

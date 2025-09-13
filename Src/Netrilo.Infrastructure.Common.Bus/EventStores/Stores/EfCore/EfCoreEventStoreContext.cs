@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Netrilo.Infrastructure.Common.Bus.EventStores;
 
-namespace Infrastructure.Common.Bus.EventStores.Stores.EfCore
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores.EfCore
 {
     public class EfCoreEventStoreContext : DbContext
     {

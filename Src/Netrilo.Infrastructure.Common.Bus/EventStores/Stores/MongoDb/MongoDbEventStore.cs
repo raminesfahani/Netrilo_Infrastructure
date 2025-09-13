@@ -1,8 +1,10 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using Netrilo.Infrastructure.Common.Bus.EventStores;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores;
 
-namespace Infrastructure.Common.Bus.EventStores.Stores.MongoDb
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores.MongoDb
 {
     public class MongoDbEventStore : IStore
     {

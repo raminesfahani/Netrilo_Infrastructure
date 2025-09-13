@@ -1,9 +1,9 @@
-﻿using Infrastructure.Common.Abstractions.Events;
-using Infrastructure.Common.Bus.EventStores.Aggregate;
-using Infrastructure.Common.Bus.EventStores.Projection;
-using Infrastructure.Common.Bus.EventStores.Snapshot;
+﻿using Netrilo.Infrastructure.Common.Abstractions.Events;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Projection;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Snapshot;
 
-namespace Infrastructure.Common.Bus.EventStores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public interface IEventStore
     {

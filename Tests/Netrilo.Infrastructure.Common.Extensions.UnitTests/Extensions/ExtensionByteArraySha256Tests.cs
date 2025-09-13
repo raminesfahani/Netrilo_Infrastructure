@@ -1,8 +1,8 @@
-﻿using Infrastructure.Common.Extensions.Extensions.ByteArray;
+﻿using Netrilo.Infrastructure.Common.Extensions.Extensions.ByteArray;
 using System.Text;
 using Xunit.Abstractions;
 
-namespace Infrastructure.Common.Extensions.UnitTests.Extensions
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.Extensions
 {
     public class ExtensionByteArraySha256Tests
     {

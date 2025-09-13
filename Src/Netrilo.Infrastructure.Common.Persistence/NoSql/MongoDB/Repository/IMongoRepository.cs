@@ -4,9 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Repository
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Repository
 {
     public interface IMongoRepository<TDocument> where TDocument : IDocument
     {

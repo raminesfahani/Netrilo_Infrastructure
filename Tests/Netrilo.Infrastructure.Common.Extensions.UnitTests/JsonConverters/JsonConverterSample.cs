@@ -1,8 +1,8 @@
-﻿using Infrastructure.Common.Extensions.JsonConverters;
+﻿using Netrilo.Infrastructure.Common.Extensions.JsonConverters;
 using Newtonsoft.Json;
 using System.Net.Mail;
 
-namespace Infrastructure.Common.Extensions.UnitTests.JsonConverters
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.JsonConverters
 {
     public class JsonConverterSample
     {

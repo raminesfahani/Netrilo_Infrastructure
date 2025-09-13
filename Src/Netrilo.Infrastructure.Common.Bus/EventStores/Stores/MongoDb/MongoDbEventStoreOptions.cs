@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Bus.EventStores.Stores.MongoDb
+﻿namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores.MongoDb
 {
     public class MongoDbEventStoreOptions
     {

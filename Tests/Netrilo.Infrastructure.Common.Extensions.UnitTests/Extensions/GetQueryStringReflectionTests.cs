@@ -1,8 +1,8 @@
-using Infrastructure.Common.Extensions.Extensions.Object;
-using Infrastructure.Common.Extensions.Tests;
+using Netrilo.Infrastructure.Common.Extensions.Extensions.Object;
+using Netrilo.Infrastructure.Common.Extensions.Tests;
 using Xunit.Abstractions;
 
-namespace Infrastructure.Common.Extensions.UnitTests.Extensions
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.Extensions
 {
     public class GetQueryStringReflectionTests : TestBase
     {

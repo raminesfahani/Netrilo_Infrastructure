@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Infrastructure.Common.Extensions.Extensions.ByteArray
+namespace Netrilo.Infrastructure.Common.Extensions.Extensions.ByteArray
 {
     public static class Sha256
     {

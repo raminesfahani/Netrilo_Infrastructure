@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.MongoDB.Abstractions
 {
     public interface IDocument
     {

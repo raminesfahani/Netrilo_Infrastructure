@@ -1,8 +1,8 @@
 ﻿using MassTransit;
 using MediatR;
-using Infrastructure.Common.Bus.MessageBrokers;
+using Netrilo.Infrastructure.Common.Bus.MessageBrokers;
 
-namespace Infrastructure.Common.Bus.Bus
+namespace Netrilo.Infrastructure.Common.Bus.Bus
 {
     public class EventBus(
         IMediator mediator,

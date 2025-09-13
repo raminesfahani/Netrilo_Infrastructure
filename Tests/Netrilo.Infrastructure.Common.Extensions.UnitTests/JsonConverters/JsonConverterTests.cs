@@ -1,8 +1,8 @@
 ﻿using Xunit.Abstractions;
 using Newtonsoft.Json;
-using Infrastructure.Common.Extensions.Tests;
+using Netrilo.Infrastructure.Common.Extensions.Tests;
 
-namespace Infrastructure.Common.Extensions.UnitTests.JsonConverters
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.JsonConverters
 {
     public class JsonConverterTests(ITestOutputHelper outputHelper) : TestBase(outputHelper)
     {

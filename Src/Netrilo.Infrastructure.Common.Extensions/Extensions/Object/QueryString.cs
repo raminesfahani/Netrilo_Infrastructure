@@ -1,10 +1,10 @@
-using Infrastructure.Common.Extensions.Extensions.String;
+using Netrilo.Infrastructure.Common.Extensions.Extensions.String;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Reflection;
 
-namespace Infrastructure.Common.Extensions.Extensions.Object
+namespace Netrilo.Infrastructure.Common.Extensions.Extensions.Object
 {
     public static class QueryString
     {

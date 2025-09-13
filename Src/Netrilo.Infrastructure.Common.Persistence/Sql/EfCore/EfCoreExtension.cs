@@ -1,15 +1,15 @@
-﻿using Infrastructure.Common.Persistence.Sql.EfCore.Interceptors;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Netrilo.Infrastructure.Common.Persistence.Sql.EfCore.Interceptors;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Infrastructure.Common.Persistence.Sql.EfCore
+namespace Netrilo.Infrastructure.Common.Persistence.Sql.EfCore
 {
     public static class EfCoreExtension
     {

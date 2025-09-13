@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Infrastructure.Common.Bus.MessageBrokers
+namespace Netrilo.Infrastructure.Common.Bus.MessageBrokers
 {
     public enum MessageBrokerType
     {

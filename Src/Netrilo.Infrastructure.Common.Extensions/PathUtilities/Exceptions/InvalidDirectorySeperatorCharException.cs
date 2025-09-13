@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Extensions.PathUtilities.Exceptions
+namespace Netrilo.Infrastructure.Common.Extensions.PathUtilities.Exceptions
 {
     public class InvalidDirectorySeperatorCharException : Exception
     {

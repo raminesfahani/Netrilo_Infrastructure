@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Infrastructure.Common.Bus.EventStores;
-using Infrastructure.Common.Bus.EventStores.Stores;
+using Netrilo.Infrastructure.Common.Bus.EventStores;
+using Netrilo.Infrastructure.Common.Bus.EventStores.Stores;
 
-namespace Infrastructure.Common.Bus.EventStores.Stores.MongoDb
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Stores.MongoDb
 {
     public static class MongoDbEventStoreExtensions
     {

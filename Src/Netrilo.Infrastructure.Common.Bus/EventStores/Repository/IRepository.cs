@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Bus.EventStores.Aggregate;
+﻿using Netrilo.Infrastructure.Common.Bus.EventStores.Aggregate;
 
-namespace Infrastructure.Common.Bus.EventStores.Repository
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Repository
 {
     public interface IRepository<TAggregate> where TAggregate : IAggregate
     {

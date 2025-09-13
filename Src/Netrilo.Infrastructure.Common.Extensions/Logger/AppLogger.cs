@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
-namespace Infrastructure.Common.Extensions.Logger
+namespace Netrilo.Infrastructure.Common.Extensions.Logger
 {
     public static class AppLogger
     {

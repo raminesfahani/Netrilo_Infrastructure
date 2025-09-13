@@ -1,6 +1,6 @@
 ﻿using PhoneNumbers;
 
-namespace Infrastructure.Common.Extensions.Validators
+namespace Netrilo.Infrastructure.Common.Extensions.Validators
 {
     public static class ValidationBase
     {

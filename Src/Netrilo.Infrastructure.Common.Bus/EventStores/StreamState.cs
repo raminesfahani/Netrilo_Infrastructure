@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Bus.EventStores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public class StreamState
     {

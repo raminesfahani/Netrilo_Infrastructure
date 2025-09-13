@@ -1,6 +1,6 @@
-﻿using Infrastructure.Common.Abstractions.Events;
+﻿using Netrilo.Infrastructure.Common.Abstractions.Events;
 
-namespace Infrastructure.Common.Bus.EventStores.Projection
+namespace Netrilo.Infrastructure.Common.Bus.EventStores.Projection
 {
     public abstract class Projection : IProjection
     {

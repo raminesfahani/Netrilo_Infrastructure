@@ -1,11 +1,11 @@
 ﻿using Xunit.Abstractions;
-using Infrastructure.Common.Extensions.Tests;
-using Infrastructure.Common.Extensions.Tools;
-using Infrastructure.Common.Extensions.Extensions.String;
-using Infrastructure.Common.Extensions.Tools.Annotations;
-using Infrastructure.Common.Extensions.UnitTests.DotEnvTests.Samples;
+using Netrilo.Infrastructure.Common.Extensions.Tools.Annotations;
+using Netrilo.Infrastructure.Common.Extensions.UnitTests.DotEnvTests.Samples;
+using Netrilo.Infrastructure.Common.Extensions.Tests;
+using Netrilo.Infrastructure.Common.Extensions.Tools;
+using Netrilo.Infrastructure.Common.Extensions.Extensions.String;
 
-namespace Infrastructure.Common.Extensions.UnitTests.DotEnvTests
+namespace Netrilo.Infrastructure.Common.Extensions.UnitTests.DotEnvTests
 {
     public class DotEnvTests(ITestOutputHelper outputHelper, TempEnvFileFixcture tempEnvFileFixcture) : TestBase(outputHelper), IClassFixture<TempEnvFileFixcture>
     {

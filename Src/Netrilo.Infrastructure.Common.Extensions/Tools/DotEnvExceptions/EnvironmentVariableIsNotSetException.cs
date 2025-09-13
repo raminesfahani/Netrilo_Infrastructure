@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Common.Extensions.Tools.DotEnvExceptions
+namespace Netrilo.Infrastructure.Common.Extensions.Tools.DotEnvExceptions
 {
     /// <summary>
     /// When a matching CONSTANTCASE of Property is not found within Environment variables.

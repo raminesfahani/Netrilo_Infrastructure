@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using System;
 using System.Linq;
 
-namespace Infrastructure.Common.Web.ServiceDiscovery.Consul
+namespace Netrilo.Infrastructure.Common.Web.ServiceDiscovery.Consul
 {
     public static class ConsulExtensions
     {

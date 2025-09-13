@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Abstractions.Queries
+namespace Netrilo.Infrastructure.Common.Abstractions.Queries
 {
     public class QueryBus : IQueryBus
     {

@@ -1,9 +1,9 @@
-using Infrastructure.Common.Abstractions.Commands;
-using Infrastructure.Common.Abstractions.Events;
 using MediatR;
 using Moq;
+using Netrilo.Infrastructure.Common.Abstractions.Commands;
+using Netrilo.Infrastructure.Common.Abstractions.Events;
 
-namespace Infrastructure.Common.Bus.UnitTests.Mediator
+namespace Netrilo.Infrastructure.Common.Bus.UnitTests.Mediator
 {
     public class CommandHandlerUnitTests
     {

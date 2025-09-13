@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Infrastructure.Common.Persistence.NoSql.Redis.Repository;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.Redis.Repository;
 
 namespace Infrastructure.Databases.Redis
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
 
-namespace Infrastructure.Common.Web.ApiExplorer.Swagger
+namespace Netrilo.Infrastructure.Common.Web.ApiExplorer.Swagger
 {
     public class SwaggerOptions : OpenApiInfo
     {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Reflection;
 
-namespace Infrastructure.Common.Bus.EventStores
+namespace Netrilo.Infrastructure.Common.Bus.EventStores
 {
     public static class ReflectionInvoker
     {

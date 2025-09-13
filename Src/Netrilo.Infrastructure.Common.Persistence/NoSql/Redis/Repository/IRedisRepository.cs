@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Common.Persistence.NoSql.Redis.Repository
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.Redis.Repository
 {
     public interface IRedisRepository
     {

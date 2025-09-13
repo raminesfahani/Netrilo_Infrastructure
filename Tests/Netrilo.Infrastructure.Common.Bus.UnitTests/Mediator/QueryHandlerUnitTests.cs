@@ -1,9 +1,9 @@
-using Infrastructure.Common.Abstractions.Events;
-using Infrastructure.Common.Abstractions.Queries;
 using MediatR;
 using Moq;
+using Netrilo.Infrastructure.Common.Abstractions.Events;
+using Netrilo.Infrastructure.Common.Abstractions.Queries;
 
-namespace Infrastructure.Common.Bus.UnitTests.Mediator
+namespace Netrilo.Infrastructure.Common.Bus.UnitTests.Mediator
 {
     public class QueryHandlerUnitTests
     {

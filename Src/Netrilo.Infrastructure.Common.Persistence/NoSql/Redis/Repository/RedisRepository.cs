@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
-using Infrastructure.Common.Persistence.NoSql.Redis;
 using static Infrastructure.Databases.Redis.ServiceRegistration;
+using Netrilo.Infrastructure.Common.Persistence.NoSql.Redis;
 
-namespace Infrastructure.Common.Persistence.NoSql.Redis.Repository
+namespace Netrilo.Infrastructure.Common.Persistence.NoSql.Redis.Repository
 {
     public class RedisRepository : IRedisRepository
     {

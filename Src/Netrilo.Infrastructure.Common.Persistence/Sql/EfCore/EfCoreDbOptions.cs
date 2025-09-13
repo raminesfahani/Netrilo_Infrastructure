@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Common.Persistence.Sql.EfCore
+﻿namespace Netrilo.Infrastructure.Common.Persistence.Sql.EfCore
 {
     public class EfCoreDbOptions
     {

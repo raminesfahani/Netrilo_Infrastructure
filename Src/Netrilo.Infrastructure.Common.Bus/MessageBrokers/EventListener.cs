@@ -4,7 +4,7 @@ using System.Threading;
 using MassTransit.Transports;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Common.Bus.MessageBrokers
+namespace Netrilo.Infrastructure.Common.Bus.MessageBrokers
 {
     public class EventListener(IPublishEndpoint publishEndpoint) : IEventListener
     {
