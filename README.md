@@ -34,7 +34,7 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 - 🧪 **Testable**: Fully decoupled, allowing unit testing and mocking.
 - ♻️ **Reusable**: Drop into any .NET Core / .NET 8+ project.
 - 🔍 **Discoverable**: Each module has its own documentation and NuGet package.
-- 🛫 **Easy Deployment**: Easy, customizable and flexible Azure and Github artifacts deployment.
+- 📦 **Easy Deployment**: Easy, customizable and flexible Azure and Github artifacts deployment.
 
 ---
 
@@ -84,9 +84,9 @@ dotnet add package Netrilo.Infrastructure.Common.Web
 
 ---
 
-## 🛫 Azure Artifact Deployment
+## Azure Artifact Deployment
 
-You can easily configure and customize this [YAML Pipeline](Deployment/Azure-Pipeline.yml) for deploying on Azure Artifact by setting your environment variables and repo.
+You can easily configure and customize this [YAML Pipeline](Deployment/Azure-Pipeline.yml) for deploying on `Azure Artifact` by setting your environment variables and repo supporting `package versioning`.
 
 ---
 
@@ -97,7 +97,6 @@ To build all projects and generate NuGet packages:
 ```bash
 dotnet restore
 dotnet build --configuration Release
-dotnet pack --configuration Release --output ./artifacts
 ```
 
 ---
@@ -141,7 +140,7 @@ Deployment/
 artifacts/              → Generated NuGet packages
 ```
 
-Each project and test project has its own README and is published as a standalone NuGet package.
+Each project has its own README and is published as a standalone NuGet package.
 
 ---
 
