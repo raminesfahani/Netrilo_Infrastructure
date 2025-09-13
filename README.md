@@ -52,7 +52,7 @@ Each module targets a specific infrastructure concern:
 | **Web**         | Implementing API explorers and filters, Validation and Exception handling, and Service Discovery| [![Web](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Web)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Web) | [Read More](Src/Netrilo.Infrastructure.Common.Web) |
 
 
-These modules can be installed independently and used in isolation or together.
+These modules can be installed independently and used in isolation or together. You can read the full installation and usage guideline for each project package in the above documentation links.
 
 ---
 
