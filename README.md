@@ -34,7 +34,7 @@ This repository is the backbone of the `Netrilo` infrastructure layer, designed 
 - 🧪 **Testable**: Fully decoupled, allowing unit testing and mocking.
 - ♻️ **Reusable**: Drop into any .NET Core / .NET 8+ project and / Fully compatible with .Net Aspire.
 - 🔍 **Discoverable**: Each module has its own documentation and NuGet package.
-- 📦 **Easy Deployment**: Easy, customizable and flexible Azure and Github artifacts deployment.
+- 📦 **Ready Deployment**: Easy, customizable and flexible Azure and Github artifacts deployment.
 
 ---
 
