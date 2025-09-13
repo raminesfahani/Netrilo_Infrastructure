@@ -44,7 +44,7 @@ Each module targets a specific infrastructure concern:
 
 | Module | Purpose | NuGet Package | Documentation |
 |--------|---------|---------------|---------------|
-| **Abstractions** | Core contracts and DI service definitions | [![Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions-green)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions) | [Read More](Src/Netrilo.Infrastructure.Common.Abstractions) |
+| **Abstractions** | Core contracts and DI service definitions | [![Abstractions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Abstractions?color=green)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Abstractions) | [Read More](Src/Netrilo.Infrastructure.Common.Abstractions) |
 | **Bus**         | Event bus & messaging pattern implementation | [![Bus](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Bus)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Bus) | [Read More](Src/Netrilo.Infrastructure.Common.Bus) |
 | **Extensions**  | Common helper utilities and extension methods | [![Extensions](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Extensions)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Extensions) | [Read More](Src/Netrilo.Infrastructure.Common.Extensions) |
 | **Logging**     | Structured logging setup using Serilog | [![Logging](https://img.shields.io/nuget/v/Netrilo.Infrastructure.Common.Logging)](https://www.nuget.org/packages/Netrilo.Infrastructure.Common.Logging) | [Read More](Src/Netrilo.Infrastructure.Common.Logging) |
