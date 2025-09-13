@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/github/languages/top/raminesfahani/Netrilo_Infrastructure)](https://github.com/raminesfahani/Netrilo_Infrastructure/search?l=c%23)
 
 **Netrilo** is a modular infrastructure SDK for modern .NET applications.  
-It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architecture supporting architectures including Domain-Driven-Design, Event-Driven and so on.
+It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architectures, including Domain-Driven-Design, Event-Driven and so on.
 
 ![Netrilo Logo](https://github.com/raminesfahani/Netrilo_Infrastructure/raw/main/logo.png)
 
@@ -97,13 +97,13 @@ All unit tests for the repository are located under the `Tests/` folder.
 Use the following `dotnet` command to discover and run all tests in the repository:
 
 ```bash
-dotnet test --configuration Release --no-build
+dotnet test --configuration Release
 ```
 
 ## 🗂️ Repository Structure
 
 ```
-Package Projects/
+Main Projects/
 ├── Netrilo.Infrastructure.Common.Abstractions/
 ├── Netrilo.Infrastructure.Common.Bus/
 ├── Netrilo.Infrastructure.Common.Extensions/
@@ -127,7 +127,7 @@ Deployment/
 artifacts/              → Generated NuGet packages
 ```
 
-Each project has its own README and is published as a standalone NuGet package.
+Each main project has its own README and is published as a standalone NuGet package.
 
 ---
 
