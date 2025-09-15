@@ -11,21 +11,6 @@ It provides plug-and-play building blocks for common concerns like logging, pers
 
 ---
 
-## 📚 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Architecture Overview](#-architecture-overview)
-- [NuGet Packages](#-nuget-packages)
-- [Installation](#-installation)
-- [Build Instructions](#-build-instructions)
-- [Unit Tests](#-unit-tests)
-- [Azure Artifact Deployment](#-azure-artifact-deployment)
-- [Repository Structure](#-repository-structure)
-- [Contribution Guide](#-contribution-guide)
-- [License](#-license)
-
----
-
 ## 📖 About the Project
 
 This repository is the backbone of the `Netrilo` infrastructure layer, designed to be:
