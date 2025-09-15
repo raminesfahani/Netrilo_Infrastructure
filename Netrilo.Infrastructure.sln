@@ -18,9 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{5F
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		logo.png = logo.png
+		icon.png = icon.png
 		nuget.config = nuget.config
 		README.md = README.md
-		logo.png = logo.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netrilo.Infrastructure.Common.Extensions", "Src\Netrilo.Infrastructure.Common.Extensions\Netrilo.Infrastructure.Common.Extensions.csproj", "{22F32C52-69D4-492B-B365-FEDEFC8E5771}"

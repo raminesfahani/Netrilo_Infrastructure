@@ -4,12 +4,13 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Bus</PackageId>
-		<Authors>raminesfahani</Authors>
+		<Authors>Ramin Esfahani</Authors>
 		<Description>Event Bus Abstractions and Implementations</Description>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>An infrastructure implementing a common event bus.</Description>
 	</PropertyGroup>
 
@@ -17,6 +18,8 @@
 		<Compile Remove="EventStores\Stores\EventStore\**" />
 		<EmbeddedResource Remove="EventStores\Stores\EventStore\**" />
 		<None Remove="EventStores\Stores\EventStore\**" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="icon.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 	<ItemGroup>

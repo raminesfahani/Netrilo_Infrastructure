@@ -4,12 +4,12 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
-		<Authors>raminesfahani</Authors>
+		<Authors>Ramin Esfahani</Authors>
 		<Description>Usual Implementations for Web APIs and Application usages</Description>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
-		
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Description>An infrastructure implementing the most popular and useful a web project requirements.</Description>
 	</PropertyGroup>
 
@@ -34,5 +34,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Netrilo.Infrastructure.Common.Abstractions\Netrilo.Infrastructure.Common.Abstractions.csproj" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="icon.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 </Project>

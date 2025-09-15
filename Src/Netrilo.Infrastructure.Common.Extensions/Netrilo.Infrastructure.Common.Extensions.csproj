@@ -4,12 +4,12 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Extensions</PackageId>
-		<Authors>raminesfahani</Authors>
+		<Authors>Ramin Esfahani</Authors>
 		<Description>Common Utilities and Helpers for general usages</Description>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
-		
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Description>A project containing some helpful extensions and functions for general usages.</Description>
 	</PropertyGroup>
 
@@ -19,6 +19,8 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="DotEnvFile" Version="2.1.0" />
 		<PackageReference Include="xunit.abstractions" Version="2.0.3" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="icon.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
