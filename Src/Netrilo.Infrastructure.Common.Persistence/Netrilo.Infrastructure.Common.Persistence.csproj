@@ -5,12 +5,13 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Persistence</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Implemented Abstract Persistence Layer</Description>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>An infrastructure implementing different types of persistence libraries including SQL and NoSQL.</Description>
+		<Description>
+			A modular persistence library for .NET Core applications which provides a unified repository pattern and configuration utilities for working with SQL (EF Core: PostgreSQL and SQL Server), MongoDB, and Redis in a clean and extensible way.
+		</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

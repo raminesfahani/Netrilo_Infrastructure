@@ -5,12 +5,13 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Logging</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Implemented Logging Services</Description>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>A project which is responsible for all runtime logging on different platforms.</Description>
+		<Description>
+			provides logging extensions for .NET applications using Serilog and optional Elastic APM integration. It is designed to simplify the setup of structured logging, log enrichment, and distributed tracing in ASP.NET Core applications.
+		</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

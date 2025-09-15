@@ -5,12 +5,11 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Abstractions</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Common Abstract Classes</Description>
-		<Version>1.0.3</Version>
+		<Description>Provides core contracts, interfaces, and abstractions used across other infrastructure modules.</Description>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>A project containing common abstract classes and entities.</Description>
 		
 	</PropertyGroup>
 

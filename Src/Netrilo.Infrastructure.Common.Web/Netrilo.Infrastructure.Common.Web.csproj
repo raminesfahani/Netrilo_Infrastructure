@@ -5,12 +5,11 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Web</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Usual Implementations for Web APIs and Application usages</Description>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>An infrastructure implementing the most popular and useful a web project requirements.</Description>
+		<Description>A package provides ready-to-use extensions for ASP.NET Core applications, bundling together common web infrastructure concerns.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

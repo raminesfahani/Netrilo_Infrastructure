@@ -5,12 +5,11 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Extensions</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Common Utilities and Helpers for general usages</Description>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Description>A project containing some helpful extensions and functions for general usages.</Description>
+		<Description>Collection of extension methods, utilities, validators, and infrastructure helpers for .NET applications.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

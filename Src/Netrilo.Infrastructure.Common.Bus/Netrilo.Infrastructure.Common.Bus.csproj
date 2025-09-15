@@ -5,13 +5,11 @@
 		<IsPackable>true</IsPackable>
 		<PackageId>Netrilo.Infrastructure.Common.Bus</PackageId>
 		<Authors>Ramin Esfahani</Authors>
-		<Description>Event Bus Abstractions and Implementations</Description>
-		<Version>1.0.3</Version>
+		<Description>Implements an in-memory or pluggable event bus for domain event publishing.</Description>
+		<Version>1.0.4</Version>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		
-		<Description>An infrastructure implementing a common event bus.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
