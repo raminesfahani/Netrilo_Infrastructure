@@ -23,10 +23,6 @@ dotnet add package Netrilo.Infrastructure.Common.Abstractions
 
 ## 🧪 Tests
 
-```
-Tests/Infrastructure.Common.Abstractions.Tests/
-```
-
 Run the following command to run the tests:
 
 ```bash
