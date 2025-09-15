@@ -86,7 +86,7 @@ Message brokers part works with `MassTransit` and handles the `Event Messaging` 
 - AzureServiceBus
 - Kafka
 
-Which you can configure in `MessageBrokersOptions` variables in `appsettings.json`. Additionally, you have all features and functionalities of MassTransit to work with (read the full documentation of *MassTransit* in [This link](https://masstransit.io/documentation/)).
+Which you can configure in `MessageBrokersOptions` variables in `appsettings.json`. Additionally, you have all features and functionalities of MassTransit to work with (read the full documentation of *MassTransit* in [this link](https://masstransit.io/documentation/configuration/)).
 
 ### 🧩 Message Brokers Installation
 
@@ -94,7 +94,7 @@ You can easily register mentioned MessageBrokers by an overloaded function named
 
 **Configure RabbitMQ and Kafka**
 
-```
+```csharp
 services.AddMessageBroker(
             IConfiguration Configuration,
             Type[] consumers,
@@ -106,7 +106,7 @@ services.AddMessageBroker(
 
 **Configure AzureServiceBus**
 
-```
+```csharp
 services.AddMessageBroker(
             IConfiguration Configuration,
             Type[] consumers,
@@ -117,13 +117,13 @@ services.AddMessageBroker(
 
 In addition, you can get and register all `Consumers` by reflection to register as the following code:
 
-```
+```csharp
 services.AddMessageBroker(Configuration, ConsumersExtension.All(), default)
 ```
 
 This will register the considered message broker and Event Listener to publish messages and events to the consumers and endpoints by injection of `IEventListener` and use that like the following function:
 
-```
+```csharp
 public async Task PublishOrderCreated
     {
         eventListener.Publish<OrderCreatedEvent>(new OrderCreatedEvent());
@@ -142,3 +142,8 @@ Run the following command to run the tests:
 ```
 dotnet test .\Tests\Netrilo.Infrastructure.Common.Bus.UnitTests\Netrilo.Infrastructure.Common.Bus.UnitTests.csproj
 ```
+
+
+## 📄 License
+
+MIT License

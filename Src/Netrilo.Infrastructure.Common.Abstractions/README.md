@@ -28,3 +28,8 @@ Run the following command to run the tests:
 ```bash
 dotnet test .\Tests\Netrilo.Infrastructure.Common.Abstractions.UnitTests\Netrilo.Infrastructure.Common.Abstractions.UnitTests.csproj
 ```
+
+
+## 📄 License
+
+MIT License
