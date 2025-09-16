@@ -3,6 +3,7 @@
 [![Build & Publish NuGet Packages](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml/badge.svg)](https://github.com/raminesfahani/Netrilo_Infrastructure/actions/workflows/nuget-packages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Language](https://img.shields.io/github/languages/top/raminesfahani/Netrilo_Infrastructure)](https://github.com/raminesfahani/Netrilo_Infrastructure/search?l=c%23)
+![GitHub Repo stars](https://img.shields.io/github/stars/raminesfahani/Netrilo_Infrastructure?style=social)
 
 **Netrilo** is a modular infrastructure SDK for modern .NET applications.  
 It provides plug-and-play building blocks for common concerns like logging, persistence, web layers, messaging, and extensions — all in a clean, testable, and highly maintainable architectures, including Domain-Driven-Design, Event-Driven and so on.
