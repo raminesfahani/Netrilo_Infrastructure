@@ -1,20 +1,22 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: ✨ Feature Request
+about: Suggest an idea or improvement for Netrilo Infrastructure
+title: "[Feature]: "
+labels: enhancement
 assignees: ''
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 💡 Describe the Feature
+A clear and concise description of the feature or enhancement you’d like to see.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## 🔍 Why Is It Needed?
+Explain why this feature would be useful or what problem it solves.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 🧱 Proposed Solution
+If you have a suggestion on how to implement it, share it here.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## 📦 Affected Modules (if any)
+List any specific modules (e.g., Logging, Messaging) this would impact.
+
+## 🙏 Additional Context
+Add any other context, references, or links here.
